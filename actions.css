@@ -638,13 +638,12 @@ a {
         gap: 0.75rem;
         width: 100%;
         flex-wrap: wrap;
-
+        justify-content: center;
     }
 
     .nav a {
         padding: 0.5rem 0;
         text-align: center;
-        border-bottom: 1px solid var(--border-color);
     }
 
     .nav a:last-child {
