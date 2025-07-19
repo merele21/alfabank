@@ -8,14 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
     <header class="header">
         <div class="container">
             <div class="nav-wrapper">
                 <div class="logo">
                     <div class="logo-text">
-                        <h1>Свой в Альфе</h1>
-                        <p>Независимый консультант</p>
+                        <h1><a href="index.html">Свой в Альфе</a></h1>
+                        <p><a href="index.html">Независимый консультант</a></p>
                     </div>
                 </div>
 
@@ -48,25 +47,29 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h2 class="hero-title">
-                        <span class="title-accent">Свой</span><br>
-                        <span class="title-main">в Альфе</span>
+                        <span class="title-accent">Свой в Альфе</span>
                     </h2>
                     <p class="hero-subtitle">бизнес без вложений</p>
-                    <button class="cta-button primary">
-                        Как начать зарабатывать
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                            <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                        </svg>
-                    </button>
                 </div>
                 <div class="hero-visual">
-                    <div class="floating-card">
-                        <div class="card-shine"></div>
-                        <div class="plant-decoration"></div>
+                    <div class="card-3d">
+                        <div class="card-front">
+                            <div class="card-logo">А</div>
+                            <div class="card-chip"></div>
+                            <div class="card-number">•••• •••• •••• ••••</div>
+                            <div class="card-holder">CARDHOLDER NAME</div>
+                        </div>
+                        <div class="card-back"></div>
+                    </div>
                     </div>
                 </div>
+            <button class="cta-button primary">
+                <a href="#instructions">Как начать зарабатывать</a>
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </button>
             </div>
-        </div>
     </section>
 
     <section class="card-section">
@@ -74,7 +77,7 @@
             <div class="section-header">
                 <h2 class="section-title">Дебетовая карта Альфа Банка</h2>
                 <p class="section-subtitle">
-                    Заказывай Дебетовую карту с бесплатным обслуживанием по ссылке вашего приглашателя!
+                    Заказываем Дебетовую карту с бесплатным обслуживанием по ссылке вашего приглашателя!
                 </p>
             </div>
 
@@ -82,17 +85,22 @@
                 <div class="offer-content">
                     <div class="offer-text">
                         <h3>Оформи <span class="accent">Альфа-Карту</span><br>и получи</h3>
-                        <div class="bonus-amount">
-                            <span class="currency">₽</span>
-                            <span class="amount">500</span>
-                        </div>
                     </div>
                     <div class="offer-visual">
                         <div class="card-3d">
-                            <div class="card-front"></div>
+                            <div class="card-front">
+                                <div class="card-logo">А</div>
+                                <div class="card-chip"></div>
+                                <div class="card-number">•••• •••• •••• ••••</div>
+                                <div class="card-holder">CARDHOLDER NAME</div>
+                            </div>
                             <div class="card-back"></div>
                         </div>
                     </div>
+                    <div class="bonus-amount">
+                    <span class="currency">₽</span>
+                    <span class="amount">500</span>
+                </div>
                 </div>
             </div>
         </div>
@@ -100,7 +108,7 @@
 
     <section class="instructions">
         <div class="container">
-            <div class="instructions-content">
+            <div class="instructions-content" id="instructions">
                 <div class="instruction-card">
                     <h3>Начинаем с оформления дебетовой карты «Для своих»</h3>
                     <p>(даже если у вас есть карта Альфабанка)</p>
@@ -148,7 +156,7 @@
         <div class="container">
             <div class="notice-content">
                 <h2>Важная памятка — первые действия после оформления карты!</h2>
-                <a class="cta-button accent" href="actions.html">
+                <a class="button-act accent" href="actions.html">
                     Перейти к пошаговым действиям! Сохраните себе!
                 </a>
             </div>
